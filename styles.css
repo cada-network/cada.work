@@ -3,8 +3,11 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: black;
-  background-image: url("coding_splash_large.jpg");
+  background-color: #1b1b1b;
+  background-image: linear-gradient(#1b1b1b00 98rem, #1b1b1b 105rem),
+    url("coding_splash_large.jpg");
+  /* this adds a feather effect to the background image */
+  background-repeat: no-repeat;
   color: white;
   margin: 0;
   font-family: "Josefin Sans", serif;
