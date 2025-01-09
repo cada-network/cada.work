@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  background-image: url("coding_splash_large.jpg");
+  color: white;
+  margin: 0;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#site-container {
+  max-width: 1000px;
+  margin: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: orange;
+}
+
+.invite-text {
+  text-align: center;
+}
+
+a:visited {
+  color: brown;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#aims-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  #aims-container {
+    flex-direction: column;
+  }
+}
+
+.aim-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aim-text {
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+.aim-icon {
+  filter: invert();
+  max-width: 5rem;
+  height: 5rem;
+}
+
+.acronym-title {
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+}
+
+.big-letter {
+  font-size: 5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .move-right {
+    padding-left: 8rem;
+  }
+}
+
+#autonomy-title {
+  border-top: 1px white solid;
+  padding-top: 2rem;
+}
+
+#autonomy-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+#autonomy-logo {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+#autonomy-description {
+  margin: 0.5rem 0rem;
+}
